@@ -29,7 +29,15 @@
     </build>
 
     <dependencies>
-        <!-- Add your dependencies here -->
-    </dependencies>
+        <!-- Include Java Cryptography Extension (JCE) APIs -->
+        <dependency>
+            <groupId>javax.crypto</groupId>
+            <artifactId>javax.crypto</artifactId>
+            <version>1.0.1</version>
+        </dependency>
 
+        <!-- If additional security libraries are required -->
+        <!-- Example: Bouncy Castle for enhanced cryptographic algorithms -->
+   
+    </dependencies>
 </project>
